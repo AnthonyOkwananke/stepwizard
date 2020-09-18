@@ -69,8 +69,6 @@ export class FormPersonalDetails extends Component {
                         style={styles.button}
                         onClick={this.back}
                     />
-
-
                 </React.Fragment>
             </MuiThemeProvider>
         );
