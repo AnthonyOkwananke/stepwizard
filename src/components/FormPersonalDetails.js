@@ -16,7 +16,7 @@ export class FormPersonalDetails extends Component {
     };
 
     render() {
-        // pull ot values from props
+        // pull out values from props
         const { values, handleChange } = this.props;
         return (
             <MuiThemeProvider>
@@ -28,35 +28,35 @@ export class FormPersonalDetails extends Component {
                         onChange={handleChange('phone')}
                         defaultValue={values.phone}
                     />
-                    <br/>
+                    <br />
                     <TextField
                         hintText="Your Address"
                         floatingLabelText="Address"
                         onChange={handleChange('address')}
                         defaultValue={values.address}
                     />
-                    <br/>
+                    <br />
                     <TextField
                         hintText="Your City"
                         floatingLabelText="City"
                         onChange={handleChange('city')}
                         defaultValue={values.city}
                     />
-                    <br/>
+                    <br />
                     <TextField
                         hintText="Your Province"
                         floatingLabelText="Province"
                         onChange={handleChange('province')}
                         defaultValue={values.province}
                     />
-                    <br/>
+                    <br />
                     <TextField
                         hintText="Your Postal Code"
                         floatingLabelText="Postal Code"
                         onChange={handleChange('postalCode')}
                         defaultValue={values.postalCode}
                     />
-                    <br/>
+                    <br />
                     <RaisedButton
                         label="Continue"
                         primary={true}

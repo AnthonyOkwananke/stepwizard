@@ -17,8 +17,7 @@ export class Confirm extends Component {
     };
 
     render() {
-        // pull ot values from props
-        const { values: {firstName, lastName, email, phone, address, city, province, postalCode} } = this.props;
+        const { values: { firstName, lastName, email, phone, address, city, province, postalCode } } = this.props;
         return (
             <MuiThemeProvider>
                 <React.Fragment>
@@ -26,38 +25,38 @@ export class Confirm extends Component {
                     <List>
                         <ListItem
                             primaryText="First Name"
-                            secondaryText={ firstName }
+                            secondaryText={firstName}
                         />
                         <ListItem
                             primaryText="Last Name"
-                            secondaryText={ lastName }
+                            secondaryText={lastName}
                         />
                         <ListItem
                             primaryText="Email"
-                            secondaryText={ email }
+                            secondaryText={email}
                         />
                         <ListItem
                             primaryText="Phone Number"
-                            secondaryText={ phone }
+                            secondaryText={phone}
                         />
                         <ListItem
                             primaryText="Address"
-                            secondaryText={ address }
+                            secondaryText={address}
                         />
                         <ListItem
                             primaryText="City"
-                            secondaryText={ city }
+                            secondaryText={city}
                         />
                         <ListItem
                             primaryText="Province"
-                            secondaryText={ province }
+                            secondaryText={province}
                         />
                         <ListItem
                             primaryText="Postal Code"
-                            secondaryText={ postalCode }
+                            secondaryText={postalCode}
                         />
                     </List>
-                    <br/>
+                    <br />
                     <RaisedButton
                         label="Confirm and Continue"
                         primary={true}

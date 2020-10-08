@@ -10,7 +10,6 @@ export class FormUserDetails extends Component {
     this.props.nextStep();
   };
   render() {
-    // pull ot values from props
     const { values, handleChange } = this.props;
     return (
       <MuiThemeProvider>
